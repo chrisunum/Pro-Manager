@@ -1,0 +1,21 @@
+.konji_post_ad{
+	background:#1C77A8; 
+	color:white !important; 
+	padding:5px 10px !important;
+	border-radius:3px;
+}
+
+.konji_post_ad:hover{
+	background:#1C77A8 !important;
+	opacity:0.7;
+}
+
+.konji_options{
+	padding-top:10px; 
+	padding-bottom:10px;
+	outline-color:transparent;
+}
+
+.konji_option:focus {
+	outline:0;
+}

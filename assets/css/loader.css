@@ -1,0 +1,41 @@
+#loader-container{
+  text-align:center;
+  padding:20px;
+  height:80px;
+  vertical-align: center;
+}
+
+.loaders{
+  display:inline-block;
+  width:5px;
+  height:20px;
+  margin:0.3px;
+  background:#047dbd;
+  border-radius: 2px;
+}
+@keyframes move {
+  0%   {height:20px;}
+  50%  {height:10px;}
+  100% {height:20px;}
+}
+
+@keyframes move2 {
+  0%   {height:10px;}
+  50%  {height:20px;}
+  100% {height:10px;}
+}
+#loader-one{
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#loader-two{
+  animation-name: move2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#loader-three{
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
